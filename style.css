@@ -6,9 +6,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#colors {
+.section {
     border: 2px solid gray;
     border-radius: 4px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -38,13 +39,6 @@ h2 {
     margin-right: 10px;
 }
 
-.color-text {
-    width: 220px;
-    font-size: 14px;
-    /*border: 1px solid blue;*/
-
-}
-
 #color1 {
     background-color: #DDE7EE;
 }
@@ -63,4 +57,42 @@ h2 {
 
 #color5 {
     background-color: #F2E8DA
+}
+
+h3 {
+    font-weight: 400;
+    text-decoration: underline;
+    margin: 0px;
+    /*border: 1px solid green;*/
+}
+
+.color-text {
+    width: 220px;
+    font-size: 14px;
+    /*border: 1px solid blue;*/
+}
+
+#font-container {
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 1px solid purple;*/
+}
+
+.font-element {
+    width: 500px;
+    margin: 20px;
+    padding: 10px;
+    /*border: 1px solid red;*/
+}
+
+#font1 {
+    font-family: "Poppins";
+}
+
+#font2 {
+    font-family: "Work Sans";
+}
+
+#font3 {
+    font-family: "Merriweather Sans";
 }
